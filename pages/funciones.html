@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Funciones</title>
+    <link rel="stylesheet" href="/style/pagesStyle.css">
+</head>
+
+<body>
+    <h1 class="titulo">
+        Ejercicios de Funciones
+    </h1>
+    <div class="box">
+        <h2>Ejercicio 1</h2>
+        <p>
+            Escribir el código de una función a la que se pasa como parámetro un número
+            entero y devuelve como resultado una cadena de texto que indica si el número es
+            par o impar. Mostrar por pantalla el resultado devuelto por la función.
+        </p>
+        <p class="dificultad">
+            Dificultad: 🟢
+        </p>
+        <label for="paridad">Ingresar un número: </label>
+        <input type="text" id="paridad" placeholder="Par o Impar">
+        <button type="button" onclick="parImpar()">Enviar</button>
+        <button type="button" onclick="borrarParidad()">Borrar</button>
+        <p id="mostrarParidad"></p>
+    </div>
+    <div class="box">
+        <h2>Ejercicio 2</h2>
+        <p>
+            Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A
+            partir de la cadena que se le pasa, la función
+            determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
+        </p>
+        <p class="dificultad">
+            Dificultad: 🟢🟡
+        </p>
+        <label for="cadenaTexto">Ingresá una oración: </label>
+        <input type="text" id="cadenaTexto">
+        <button type="button" onclick="mayusMinus()">Enviar</button>
+        <button type="button" onclick="borrarCadena()">Borrar</button>
+        <p id="mostrarMayusMinus"></p>
+    </div>
+    <div class="box">
+        <h2>Ejercicio 3</h2>
+        <p>
+            Solicitar por pantalla al usuario ingresar el valor de los lados de un rectángulo,
+            luego crear una función para calcular su perímetro y mostrarlo por pantalla.
+        </p>
+        <p>
+            ● La fórmula del perímetro es p = 2*(a +b)
+        </p>
+        <p class="dificultad">
+            Dificultad: 🟢🟡
+        </p>
+    </div>
+    <div class="box">
+        <h2>Ejercicio 4</h2>
+        <p>
+            Escriba un script que muestre la tabla de multiplicar de un número ingresado
+            por pantalla, la creación de la tabla debe ser realizada con una función y mostrar
+            solo los resultados del 1 al 10 del número elegido por el usuario.
+        </p>
+        <p class="dificultad">
+            Dificultad: 🟢🟡
+        </p>
+    </div>
+    <a href="/index.html">VOLVER</a>
+    <script src="/script/function.js"></script>
+</body>
+
+</html>
