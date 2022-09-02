@@ -57,6 +57,13 @@
         <p class="dificultad">
             Dificultad: 🟢🟡
         </p>
+        <label for="alturaRectangulo">Ingresá la altura del rectángulo: </label>
+        <input type="text" id="alturaRectangulo">
+        <label for="baseRectangulo"> Ingresá la base del rectángulo: </label>
+        <input type="text" id="baseRectangulo">
+        <button type="button" onclick="calcularPerimetro()">Enviar</button>
+        <button type="button" onclick="borrarPerimetro()">Borrar</button>
+        <p id="mostrarPerimetro"></p>
     </div>
     <div class="box">
         <h2>Ejercicio 4</h2>
@@ -68,6 +75,19 @@
         <p class="dificultad">
             Dificultad: 🟢🟡
         </p>
+        <label for="numeroMulti">Ingresar número a multiplicar: </label>
+        <input type="text" id="numeroMulti">
+        <button type="button" onclick="multiplicar()">Enviar</button>
+        <button type="button" onclick="borrarTabla()">Borrar</button>
+        <table>
+            <tr>
+                <td>Multiplicación</td>
+                <td>Resultado</td>
+            </tr>
+            <tbody id="tablaMulti">
+
+            </tbody>
+        </table>
     </div>
     <a href="/index.html">VOLVER</a>
     <script src="/script/function.js"></script>

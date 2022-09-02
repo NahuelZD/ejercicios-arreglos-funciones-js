@@ -9,12 +9,12 @@ body {
     background-color: rgb(160, 160, 160, 0.6);
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
 }
 
-.box{
+.box {
     border: solid thin black;
     border-radius: 20px;
     padding: 20px;
@@ -24,18 +24,31 @@ body {
     -moz-box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-.box h2{
+.box h2 {
     text-align: center;
 }
 
-.box .dificultad{
+.box .dificultad {
     text-align: end;
     border-bottom: solid thin black;
 }
 
-body a{
+body a {
     padding: 5px 20px;
     margin-top: 20px;
     text-decoration: none;
     color: black;
+}
+
+table,
+td {
+    border-radius: 10px;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+
+td, tr{
+    width: 50%;
+    text-align: center;
+    padding: 15px 40px;
 }
