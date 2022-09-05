@@ -122,3 +122,10 @@ function funcionDados() {
     tabla.appendChild(tr);
   }
 } 
+
+function borrarDados(){
+  let tabla = document.getElementById('tablaDados');
+  let mostrar = document.getElementById('lanza');
+  tabla.innerHTML = '';
+  mostrar.innerHTML = '';
+}
