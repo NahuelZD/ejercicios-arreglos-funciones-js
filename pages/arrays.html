@@ -22,6 +22,9 @@
         <p class="dificultad">
             Dificultad: 🟢
         </p>
+        <button type="button" onclick="mostrarMeses()">Mostrar Meses del Año</button>
+        <button type="button" onclick="borrarMeses()">Borrar</button>
+        <ul id="listaMeses"></ul>
     </div>
     <div class="box">
         <h2>Ejercicio 2</h2>
@@ -44,6 +47,9 @@
         <p class="dificultad">
             Dificultad: 🟢🟡
         </p>
+        <button type="button" onclick="ciudades()">Ingresar ciudades</button>
+        <button type="button" onclick="borrarCiudades()">Borrar</button>
+        <ul id="mostrarCiudades"></ul>
     </div>
     <div class="box">
         <h2>Ejercicio 3</h2>
@@ -57,6 +63,17 @@
         <p class="dificultad">
             Dificultad: 🟢🟡🟢
         </p>
+        <button type="button" onclick="funcionDados()">Lanzar Dados</button>
+        <p id="lanza"></p>
+        <table>
+            <tr>
+                <td>Resultado suma</td>
+                <td>Cantidad de veces que salió</td>
+            </tr>
+            <tbody id="tablaDados">
+
+            </tbody>
+        </table>
     </div>
     <a href="/index.html">VOLVER</a>
     <script src="/script/array.js"></script>
