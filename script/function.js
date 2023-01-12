@@ -5,7 +5,7 @@ function parImpar(){
     let mensaje = document.getElementById('mostrarParidad');
 
     if(num%2 == 0) mensaje.innerHTML = `El número ${num} es par.`;
-    else mensaje.innerHTML = `El número ${num} es par.`
+    else mensaje.innerHTML = `El número ${num} es impar.`
 }
 
 function borrarParidad(){
